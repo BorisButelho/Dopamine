@@ -63,11 +63,11 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: rgba(0,0,0,0.7) url("../img/BG2.jpeg");
+    background: rgba(0,0,0,0.7) url("../img/ds2.jpg");
     background-size:contain;
     background-blend-mode: darken;
     color:white;
-    height: 100%;
+    height: 100vh;
 }
 .col1{
      width: 20%; 
@@ -97,9 +97,9 @@
 .col-2 #explore{
     background-image: url(/img/AP1.jpg);
     position: absolute;
-    top:140px;
+    top:270px;
     right: 150px;
-    height: 230px;
+    height: 235px;
     width: 600px;
     opacity: 0;
 }
@@ -151,7 +151,7 @@
     border-radius: 50px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 100px;
 
 }
 .box{
@@ -177,7 +177,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(12, 12, 12);
     position: absolute;
-    top: 67rem;
+    top: 85rem;
     font-weight: 400;
     padding: 8px;
 }
@@ -205,7 +205,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #ffa31a;
     position: absolute;
-    top: 68rem;
+    top: 85rem;
     color: #0e0e0e;
     font-weight: 400;
     padding: 8px;
@@ -235,7 +235,7 @@
     color:#ffa31a;
     color: rgb(12, 12, 12);
     position: absolute;
-    top: 64rem;
+    top: 82rem;
     font-weight: 400;
     padding: 8px;
 }
@@ -289,7 +289,7 @@
     color: #ffa31a;
     color: rgb(12, 12, 12);
     position: absolute;
-    top: 105rem;
+    top: 123rem;
     font-weight: 400;
     padding: 8px;
 }
@@ -319,7 +319,7 @@
     color:  #ffa31a;
     color: rgb(12, 12, 12);
     position: absolute;
-    top: 105rem;
+    top: 123rem;
     font-weight: 400;
     padding: 10px;
 }
@@ -349,7 +349,7 @@
     color: solid #ffa31a;
     color: rgb(12, 12, 12);
     position: absolute;
-    top: 105rem;
+    top: 123rem;
     font-weight: 400;
     padding: 8px;
 }
@@ -468,7 +468,7 @@
 .col3 img{
 position: absolute;
 left: 20px;
-top: 1815px;
+top: 2105px;
 opacity: 0;
 }
 .col3 img:hover{
@@ -476,7 +476,7 @@ opacity: 0;
 }
 .col4 img{
     position: absolute;
-    top: 1815px;
+    top: 2105px;
     left: 510px;
     opacity: 0;
 }
@@ -485,7 +485,7 @@ opacity: 0;
 }
 .col5 img{
     position: absolute;
-    top: 1815px;
+    top: 2105px;
     left: 1001px;
     opacity: 0;
 }
