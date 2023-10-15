@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    border: 3px ;
+    border-radius: 16px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    list-style: none;
+    text-transform: none;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 300;
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 20px;
+    z-index: 999
+}
+.navlist{
+    width: 50%;
+    display: flex;
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+.navlist li a:hover{
+    color: #ffa31a;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    display:block;
+}
+#search{
+    padding: 8px;
+    font-size: 15px;
+    border: 3px black;
+    border-radius: 20px;
+}
+.btn-sm{
+    margin: 2px;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    color: beige;
+    padding: 8px 20px;
+    background: none;
+}
+.btn-sm:hover{
+    text-decoration: double;
+    color: rgb(189, 214, 235);
+}
+.background{
+    background: rgba(0,0,0,0.7) url("../img/BG1.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header{
+    height: 50px;
+   text-align: center;
+   font-size: x-large;
+   color: #ffa31a;
+   padding-top: 20px;
+   font-family: arial;
+   background-color: black ;
+}
+.boxmain3{
+    background: rgba(0,0,0,0.7) url("../img/BG1.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 75vh;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+    font-family: Verdana;
+    text-align: center;
+}
+ .afternav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    justify-content: center;
+    font-family: Verdana;
+    text-align: center;
+}
+ .afternav a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #ffa31a;
+}
+ .afternav a:hover{
+    color: blanchedalmond;
+}
+.afternav img{
+        width: 450px;
+        height: 510px;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 20px;
+
+}
+.footer{
+    background-color: rgb(7, 1, 1);
+    padding: 200px 20px;
+    border-top: 5px solid #ffa31a;
+    justify-content: space-around;
+}
+.footer{
+    max-width: 1900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color:#ffa31a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.footer-logo img{
+
+    width: 8.0rem;
+    height: 8.0rem;
+    border-radius: 70px;
+}
+.footer-links strong{
+    color:#ffa31a;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.footer-links ul li a{
+    margin-top: 10px;
+}
+.footer-links ul li a{
+    color: aliceblue;
+    opacity: 0.5;
+    margin: 4px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-links ul li a:hover{
+    opacity: 1.0;
+}
+.footer-links1 strong{
+    color:#ffa31a;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.footer-links1 ul li a{
+    margin-top: 10px;
+}
+.footer-links1 ul li a{
+    color: aliceblue;
+    opacity: 0.5;
+    margin: 4px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-links1 ul li a:hover{
+    opacity: 1.0;
+}
+.contact-links strong{
+    color:#ffa31a;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+.contact-links ul li{
+    color: aliceblue;
+    opacity: 0.5;
+    margin: 4px 0px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-links ul li:hover{
+    opacity: 1.0;
+}
