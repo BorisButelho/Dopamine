@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://kit.fontawesome.com/bf64b26625.js" crossorigin="anonymous"></script>
     <title>Dopamine &#174 |Your local fashion dealer</title>
 </head>
 <body>
@@ -18,11 +19,32 @@
             <li><a href="profile.html">profile</a></li>
             <li><a href="yourproducts.html">your products</a></li>
         </ul>
-        <div class="rightnav">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
     </nav>
+    <section class="containerlogin">
+        <div class="form-box">
+            <h1 id="title">Sign up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-feild" id="nameFeild">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>          
+                     <div class="input-feild">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" name="Uname" placeholder="Email">
+                    </div>
+                    <div class="input-feild">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" placeholder="password">
+                    </div>
+                    <p>Forgot password <a href="#">click here</a></p>
+                </div>
+                <div class="btn-feild">
+                    <button type="button" id="signupBtn">Sign up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign in</button>
+                </div>
+        </div>
+    </section>
     <footer>
         <div class="footer">
             <div class="footer-logo">
@@ -56,6 +78,24 @@
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script >
+        let signupBtn = document.getElementById("signupBtn");
+        let signinBtn = document.getElementById("signinBtn");
+        let nameFeild = document.getElementById("nameFeild");
+        let title = document.getElementById("title");
+
+        signinBtn.onclick = function(){
+            nameFeild.style.maxHeight = "0";
+            title.innerHTML = "Sign In";
+            signupBtn.classList.add("disable");
+            signinBtn.classList.remove('disable');
+        }
+        signupBtn.onclick = function(){
+            nameFeild.style.maxHeight = "60px";
+            title.innerHTML = "Sign Up";
+            signupBtn.classList.remove("disable");
+            signinBtn.classList.add('disable');
+        }
+    </script>
 </body>
 </html>
