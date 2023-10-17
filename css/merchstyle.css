@@ -587,3 +587,121 @@
     color: #dfc70f;
     font-size: 12px;
 }
+.orders{
+    text-align: center;
+    padding: 40px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b1b;
+}
+.yourorders{
+    display:flex;
+
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.yourorders .pro{
+    width: 50%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid#cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(221, 14, 14, 0.02);
+    margin: 15px 0px;
+    transition: 0.5s ease;
+    position: relative;
+}
+.yourorders .pro:hover{
+    box-shadow: 20px 20px 30px rgb(241, 232, 232);
+}
+.yourorders .pro img{
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+.yourorders .pro1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+.yourorders .pro1 .des1{
+    font-size:large;
+    justify-content: center;
+    text-align:center;
+    padding: 10px 0px;
+    color: rgb(236, 244, 25);
+    margin: 30px;
+}
+.yourorders .pro .des{
+    
+    text-align: start;
+    padding: 10px 0px;
+    color: rgb(236, 244, 25);
+}
+.yourorders .pro .des span{
+    color: #dfc70f;
+    font-size: 12px;
+    display: flex;
+}
+.yourorders .pro1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 5rem;
+}
+.btn-tr{
+    display: inline-block;
+    background-color:#1b1b1b;
+    color: #ffa31a;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.OD{
+    background:black;
+    background-blend-mode: darken;
+    height: 7vh;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffa31a;
+}
+.design{
+    background:black;
+    background-blend-mode: darken;
+    height: 7vh;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffa31a;
+}
+.designlink{
+    background:black;
+    background-blend-mode: darken;
+    height: 7vh;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffa31a;
+}
+.designlink a{
+    color: #ffa31a;
+}
+
