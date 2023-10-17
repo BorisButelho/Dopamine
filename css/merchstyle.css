@@ -11,7 +11,7 @@
 .logo img{
     width: 100%;
     border: 3px ;
-    border-radius: 16px;
+    border-radius: 2px;
 }
 .navbar{
     display: flex;
@@ -139,9 +139,9 @@
 }
 .footer-logo img{
 
-    width: 8.0rem;
-    height: 8.0rem;
-    border-radius: 70px;
+    width: 10.0rem;
+    height: 7.0rem;
+    border-radius: 2px;
 }
 .footer-links strong{
     color:#ffa31a;
@@ -242,7 +242,7 @@
     position: relative;
 }
 .product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgb(199, 23, 23);
+    box-shadow: 20px 20px 30px rgb(247, 4, 4);
 }
 .product1 .pro img{
     width: 100%;
@@ -269,7 +269,7 @@
     align-items: center;
     font-size: 7rem;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(180, 234, 234);
+    color: rgb(207, 253, 253);
 }
 .product2{
     text-align: center;
@@ -323,7 +323,7 @@
     align-items: center;
     font-size: 7rem;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 107, 245);
+    color: rgb(211, 130, 249);
 }
 .product3{
     text-align: center;
