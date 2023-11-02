@@ -48,104 +48,141 @@
 .navlist li a:hover{
     color: #ffa31a;
 }
-
+.rightnav{
+    width: 50%;
+    text-align: right;
+    display:block;
+}
+#search{
+    padding: 8px;
+    font-size: 15px;
+    border: 3px black;
+    border-radius: 20px;
+}
 .background{
     background: rgba(0,0,0,0.7) url("../img/BG1.jpeg");
     background-size: cover;
     background-blend-mode: darken;
 }
-.containerlogin{
+.container{
+    position: relative;
     width: 100%;
-    height: 100vh;
-    background: rgba(0,0,0,0.7) url("../img/BG1.jpeg");
-    background-size: cover;
-    background-blend-mode: darken;
-    background-position: center;
-    position: relative;
-}
-.form-box{
-    width: 90%;
-    max-width: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #1b1b1b;
-    padding: 50px 60px 70px;
-    text-align: center;
-}
-.form-box h1{
-    font-size: 30px;
-    margin-bottom: 60px;
-    color: #ffa31a;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.form-box h1::after{
-    content: '';
-    width: 30px;
-    height: 4px;
-    border-radius: 3px;
-    background: #ffa31a;
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.input-feild{
-    background: #eaeaea;
-    margin: 15px 0;
-    border-radius: 3px;
+    min-height: 100vh;
+    height: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-    max-height: 65px;
-    transition: max-height 0.5s;
-    overflow: hidden;
+    background: rgba(0,0,0,0.7) url("../img/BG1.jpeg");
+    background-size:cover ;
+    background-position: center;
+    font-family: 'roboto',sans-serif;
+    background-blend-mode: darken;
 }
-input{
-    width: 100%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 18px 15px;
-}
-.input-feild i{
-    margin-left: 15px;
+.contain{
+    position: relative;
+    width: 90%;
+    height: 87vh;
+    border: 5px solid #ffa31a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffa31a;
 }
-form p{
-    text-align: left;
-    font-size: 20px;
-    color: #ffa31a;
+
+.submit-btn{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: inline-block;
+    background-color:#ffa31a;
+    color: #faf7f7;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-form p a{
-    text-decoration: underline;
-    color: #ffa31a;    
+.welcome{
+    font-size: 100px;
+    font-family: 'dosis';
+    color: #ffa31a;
+    font-weight: 800;
+    text-transform: capitalize;
 }
-.btn-feild{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.orders{
+    text-align: center;
+    padding: 40px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b1b1b;
 }
-.btn-feild button{
-    font-size: x-large;
-    flex-basis: 48%;
-    background: #ffa31a;
-    color: #0e0e0e;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    outline: 0;
+.yourorders{
+    display:flex;
+
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.yourorders .pro{
+    width: 50%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid#cce7d0;
+    border-radius: 25px;
     cursor: pointer;
-    transition: backgroun 1s;
+    box-shadow: 20px 20px 30px rgba(221, 14, 14, 0.02);
+    margin: 15px 0px;
+    transition: 0.5s ease;
+    position: relative;
 }
-.input-group{
-    height: 280px;
+.yourorders .pro:hover{
+    box-shadow: 20px 20px 30px rgb(241, 232, 232);
 }
-.btn-feild button.disable{
-    background: #292929;
-    color: #808080;
+.yourorders .pro img{
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+.yourorders .pro1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+.yourorders .pro1 .des1{
+    font-size:large;
+    justify-content: center;
+    text-align:center;
+    padding: 10px 0px;
+    color: rgb(236, 244, 25);
+    margin: 30px;
+}
+.yourorders .pro .des{
+    
+    text-align: start;
+    padding: 10px 0px;
+    color: rgb(236, 244, 25);
+}
+.yourorders .pro .des span{
+    color: #dfc70f;
+    font-size: 12px;
+    display: flex;
+}
+.yourorders .pro1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 5rem;
+}
+.btn-tr{
+    display: inline-block;
+    background-color:#1b1b1b;
+    color: #ffa31a;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 .footer{
     background-color: rgb(7, 1, 1);
